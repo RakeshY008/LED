@@ -20,6 +20,9 @@ public class LEDStrip {
     private boolean isStripDefective(){
         return ( numberOfDefectiveLEDs() > (lengthOfStrip()/2) );
     }
+    public void printStrip(){
+        return ;
+    }
 
     public LEDStrip(LED[] ledStrip){
         this.ledStrip = ledStrip;
