@@ -17,6 +17,9 @@ public class LEDStrip {
         return counter;
     }
 
+    private boolean isStripDefective(){
+        return ( numberOfDefectiveLEDs() > (lengthOfStrip()/2) );
+    }
 
     public LEDStrip(LED[] ledStrip){
         this.ledStrip = ledStrip;
