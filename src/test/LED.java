@@ -1,5 +1,7 @@
 package test;
+
 public class LED {
+
     private String colourName ;
     private boolean working;
 
@@ -17,6 +19,11 @@ public class LED {
     }
 
     public void setWorking(boolean working) {
+        this.working = working;
+    }
+
+    public LED(String colourName,boolean working){
+        this.colourName = colourName;
         this.working = working;
     }
 
