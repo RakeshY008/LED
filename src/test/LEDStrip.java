@@ -21,7 +21,9 @@ public class LEDStrip {
         return ( numberOfDefectiveLEDs() > (lengthOfStrip()/2) );
     }
     public void printStrip(){
-        return ;
+        System.out.println(isStripDefective() ? "This strip is defective"
+                :
+                "This strip is not defective");
     }
 
     public LEDStrip(LED[] ledStrip){
