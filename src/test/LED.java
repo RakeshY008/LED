@@ -1,0 +1,24 @@
+package test;
+public class LED {
+    private String colourName ;
+    private boolean working;
+
+    public String getColourName() {
+        return colourName;
+    }
+
+    public boolean isWorking() {
+        return working;
+    }
+
+
+    public void setColourName(String colourName) {
+        this.colourName = colourName;
+    }
+
+    public void setWorking(boolean working) {
+        this.working = working;
+    }
+
+
+}
